@@ -1,0 +1,22 @@
+[package]
+name = "service"
+version = "0.2.0"
+authors = ["Dimitar Atanasov <datanasov@cpdbg.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[[bin]]
+name = "razer-cli"
+path = "src/cli.rs"
+
+[[bin]]
+name = "daemon"
+path = "src/daemon.rs"
+
+[[bin]]
+name = "razer-settings"
+path = "src/razer-settings/razer-settings.rs"
+
+[dependencies]
